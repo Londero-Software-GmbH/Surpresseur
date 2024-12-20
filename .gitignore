@@ -1,0 +1,24 @@
+# Folders that AutomationStudio creates automatically, 
+# but are not necessarily needed for the project
+
+# Runtime versions
+BuR/AS/system/
+
+# Compilation
+BuR/Binaries/
+
+# Diagnosis
+BuR/Diagnosis/
+
+# Temporary files
+BuR/Temp/
+
+# User-specific settings, e.g. batch or AS version and RevInfo
+*.set
+Logical/Allgemein_Tasks_Basis/Communikation/RevInfo.var
+
+# SafeDesigner requires the .set files
+!**/C/PLC/R/CPU/*.set
+
+# AutomationStudio is open
+*.isopen
